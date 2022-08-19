@@ -51,16 +51,11 @@ def getSensor():
     return temperature
 
 
-try:
-    initSensor()
+initSensor()
     
 
-    while True:
-        message = getSensor()
-        ret = client1.publish(topic,payload=message,qos=2)
-        print(f'message: {message}')
-        sleep(1)
-
-
-except KeyboardInterrupt:
-    GPIO.cleanup()
+while True:
+	message = getSensor()
+	ret = client1.publish(topic,payload=message,qos=2)
+	print(f'message: {message}')
+	sleep(1)
