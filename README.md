@@ -15,5 +15,6 @@ Reference:
 ## Jawab
 1. Script publisher di ```publisher.py```
 2. Subscribe node-red mqtt
+![WhatsApp Image 2022-08-19 at 20 29 34](https://user-images.githubusercontent.com/107124396/185642057-60cf693f-32a5-48a9-ab4e-bdc9763bf135.jpeg)
 3. Data sensor
-
+![WhatsApp Image 2022-08-19 at 20 28 56](https://user-images.githubusercontent.com/107124396/185642210-bcfb5949-c622-4d7c-816d-49114024e82f.jpeg)
